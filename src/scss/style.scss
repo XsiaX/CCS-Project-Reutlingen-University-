@@ -7,7 +7,7 @@ html {
 
 /* Presets and common styles*/
 body {
-  background: url(img/expert/bg_expert.jpg);
+  background: url(../img/expert/bg_expert.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -498,12 +498,12 @@ body {
 
 .name__field {
   margin: 0 0 15px 0;
-  background: url(img/contact/user.gif) 30px center no-repeat;
+  background: url(../img/contact/user.gif) 30px center no-repeat;
   background-size: 30px;
 }
 .email__field {
   margin: 0 0 15px 0;
-  background: url(img/contact/email.gif) 30px center no-repeat;
+  background: url(../img/contact/email.gif) 30px center no-repeat;
   background-size: 30px;
 }
 
@@ -511,7 +511,7 @@ body {
   margin: 0 0 15px 0;
   line-height: 30px;
   resize: none;
-  background: url(img/contact/feedback.gif) 30px center no-repeat;
+  background: url(../img/contact/feedback.gif) 30px center no-repeat;
   background-size: 30px;
   &::placeholder {
     line-height: 50px;
@@ -579,11 +579,6 @@ body {
 /* Content styles end*/
 
 /* Page styles end */
-
-/* Footer styles start */
-.footer {
-}
-/* Footer styles end */
 
 // Animation
 @-webkit-keyframes moveX {
